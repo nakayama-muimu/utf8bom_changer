@@ -41,7 +41,7 @@ int main(int argc, char *argv[]){
     /* Check args */
     if(argc < 2){
         printf("Usage:\n");
-        printf("utf8bom_changer file1, file2, ...\n");
+        printf("utf8bom_changer file1 file2 ...\n");
         exit(0);
     }
     /* Process each file */
